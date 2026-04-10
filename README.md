@@ -6,7 +6,7 @@
 
 ---
 
-### Respuesta a Preguntas
+### Respuestas
 
 #### 1. ¿De qué forma manejaste el login de usuarios?
 El acceso se gestiona mediante el envío de datos desde un formulario hacia el servidor, donde se comparan con los registros almacenados. Se utiliza una lógica de sesiones para que el sistema reconozca el rol del usuario (administrador o regular) tras la validación. Esto permite que la página funcione de forma selectiva: el administrador obtiene herramientas de gestión total, mientras que el usuario estándar solo visualiza su información personal.
